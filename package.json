@@ -1,0 +1,52 @@
+{
+  "name": "bizagent",
+  "version": "0.1.0",
+  "description": "A lightweight, extensible Node.js CLI agent framework.",
+  "type": "module",
+  "bin": {
+    "bizagent": "bin/bizagent.js"
+  },
+  "main": "src/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node bin/bizagent.js",
+    "test": "node --test \"test/**/*.test.js\"",
+    "prepublishOnly": "node bin/bizagent.js --version"
+  },
+  "keywords": [
+    "cli",
+    "agent",
+    "ai",
+    "assistant",
+    "framework",
+    "bizlin"
+  ],
+  "author": "Bizlin Technologies <npm@bizlin.tech>",
+  "license": "MIT",
+  "homepage": "https://github.com/bizlinsolutions/bizagent",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bizlinsolutions/bizagent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bizlinsolutions/bizagent/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
