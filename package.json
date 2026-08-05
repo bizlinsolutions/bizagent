@@ -1,5 +1,5 @@
 {
-  "name": "@bizlin/bizagent",
+  "name": "bizagent",
   "version": "0.1.1",
   "description": "A lightweight, extensible Node.js CLI agent framework.",
   "type": "module",

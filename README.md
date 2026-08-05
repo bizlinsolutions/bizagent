@@ -10,7 +10,7 @@ API or in a fully offline "skeleton" mode when no API key is configured.
 ## Install
 
 ```bash
-npm install -g @bizlin/bizagent
+npm install -g bizagent
 ```
 
 After installation, run `bizagent` directly from your terminal.
