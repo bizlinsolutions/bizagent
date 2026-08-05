@@ -1,5 +1,5 @@
 {
-  "name": "bizagent",
+  "name": "@bizlin/bizagent",
   "version": "0.1.1",
   "description": "A lightweight, extensible Node.js CLI agent framework.",
   "type": "module",
@@ -43,8 +43,7 @@
     "url": "https://github.com/bizlinsolutions/bizagent/issues"
   },
   "publishConfig": {
-    "access": "public",
-    "provenance": true
+    "access": "public"
   },
   "engines": {
     "node": ">=18.0.0"

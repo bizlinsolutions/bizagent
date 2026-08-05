@@ -10,7 +10,7 @@ API or in a fully offline "skeleton" mode when no API key is configured.
 ## Install
 
 ```bash
-npm install -g bizagent
+npm install -g @bizlin/bizagent
 ```
 
 After installation, run `bizagent` directly from your terminal.
@@ -58,7 +58,7 @@ deterministic local responses, which is handy for development and testing.
 ## Programmatic API
 
 ```js
-import { createAgent } from "bizagent";
+import { createAgent } from "@bizlin/bizagent";
 
 const agent = createAgent({ model: "gpt-4o-mini" });
 const reply = await agent.run("Hello!");
