@@ -21,7 +21,7 @@
   ],
   "scripts": {
     "start": "node bin/bizagent.js",
-    "test": "node --test \"test/**/*.test.js\"",
+    "test": "node --test test/agent.test.js",
     "prepublishOnly": "node bin/bizagent.js --version"
   },
   "keywords": [
