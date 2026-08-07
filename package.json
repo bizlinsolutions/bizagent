@@ -24,6 +24,9 @@
     "test": "node --test test/agent.test.js",
     "prepublishOnly": "node bin/bizagent.js --version"
   },
+  "dependencies": {
+    "blessed": "^0.1.81"
+  },
   "keywords": [
     "cli",
     "agent",

@@ -16,7 +16,8 @@ function env(key, fallback) {
 }
 
 export function createAgent(options = {}) {
-  const apiKey = env("BIZAGENT_API_KEY", "");
+  const apiKey =
+    options.apiKey != null ? options.apiKey : env("BIZAGENT_API_KEY", "");
   const model = options.model || env("BIZAGENT_MODEL", "gpt-4o-mini");
   const apiBase =
     options.apiBase || env("BIZAGENT_API_BASE", "https://api.openai.com/v1");
